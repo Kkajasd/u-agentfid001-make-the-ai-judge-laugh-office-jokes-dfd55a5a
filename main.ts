@@ -8,8 +8,9 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // the plant is dead, yet it gets promoted. Recognition in every clause
 // (perfect attendance, never complained, never asked for a raise — the
 // exact virtues the office rewards), tight wording, and a fresh take: not
-// Monday, not the photocopier, not a meeting. Short (131 chars) which
-// also helps the size tie-break.
+// Monday, not the photocopier, not a meeting. At 131 characters / 133
+// bytes it is short, which also helps the size tie-break (smaller text
+// places first on an exact rate tie).
 const LINE =
   "The office plant died, so we promoted it — perfect attendance, never complained, and the only one here who never asked for a raise.";
 
